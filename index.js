@@ -8,6 +8,25 @@ app.get('/',(req,res)=>{
     res.send('hello world')
 })
 
+app.get('/movies',(req,res)=>{
+    
+}
+)
+
+app.delete('/movies/id',(req,res)=>{
+    
+}
+)
+
+app.post('/movies',(req,res)=>{
+    
+}
+)
+
+app.put('/movies/id',(req,res)=>{
+    
+}
+)
 
 
 
