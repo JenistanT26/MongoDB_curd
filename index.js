@@ -6,6 +6,8 @@ const app=express();
 
 const port=4000;
 
+app.use(express.json())
+
 connectDB();
 
 app.get('/',(req,res)=>{
